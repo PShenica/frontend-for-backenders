@@ -30,7 +30,7 @@ namespace StaticFront
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             app.UseDeveloperExceptionPage();
-            
+
             app.UseHttpsRedirection();
             app.UseDefaultFiles();
             app.UseStaticFiles();

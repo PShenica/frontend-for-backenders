@@ -6,7 +6,8 @@ import './styles.css';
 const navItems = [
     { url: 'news', title: 'Новости'},
     { url: 'weather', title: 'Прогноз погоды'},
-    { url: 'currency', title: 'Валюта'}
+    { url: 'currency', title: 'Валюта'},
+    { url: 'autonews', title: 'Авто-новости'}
 ]
 
 function Navigation() {
